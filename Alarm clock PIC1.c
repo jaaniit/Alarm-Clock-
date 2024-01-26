@@ -10,7 +10,7 @@
 #pragma config WRT = OFF        // Flash Program Memory Write Enable bits (Write protection off; all program memory may be written to by EECON control)
 #pragma config CP = OFF         // Flash Program Memory Code Protection bit (Code protection off)
 
-#define _XTAL_FREQ 20000000 //We are running on 20MHz crystal
+#define _XTAL_FREQ 8000000 //We are running on 8MHz crystal
 /*Set the current value of date and time below*/
 int sec = 00;
 int min = 55;
